@@ -132,7 +132,7 @@ input:focus ~ .ligne{
 }
 .Bouton{
   background: #4a89dc;
-  text-shadow: 2px 2px 0 rgba(39, 110, 204, .5);
+  text-shadow: 2px 2px 0 rgba(39, 110, 204, 0.5);
 }
 .Bouton:hover{
   background: #357bd8;
