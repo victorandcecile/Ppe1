@@ -2,21 +2,27 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Page_de_connexion</title>  
+  <title>Page_de_connexion</title>
+
       <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
-<form id="Ecran" type="submit">
-  <div class="champ">
-    <input type="text"><span class="ligne"></span><span class="bar"></span>
-    <label>Login</label>
+<div style="height: 2em;"></div>
+<form id="Ecran" method="post" action="#" class="form">
+<div id="head">
+	<h2 style="padding-left: 5em;padding-top: 1em">GSB</h2>
+      <h4 style="padding-bottom: 2em;">Login</h4>
+     </div>
+  <div class="champ" id="champ1">
+    <input type="text" id="log" autocomplete="off" required  /><hr>
+    <label id="log1">Username</label>
   </div>
-  <div class="champ">
-    <input type="password"><span class="ligne"></span><span class="bar"></span>
-    <label>Password</label>
+  <div class="champ"> 
+    <input type="password" required  id="log_"/><hr>
+    <label id="log1_">Password</label>
   </div>
-  <button type="button" class="Bouton" id="bout">Connexion</button>
-</form>
+  <button type="submit" class="Bouton" id="bout">Connexion</button>
+  </div>
 <script  src="js/index.js"></script>
 </body>
 </html>
