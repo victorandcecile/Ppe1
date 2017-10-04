@@ -24,5 +24,10 @@
   <button type="submit" class="Bouton" id="bout">Connexion</button>
   </div>
 <script  src="js/index.js"></script>
+<?php
+  $bdd = new PDO('mysql:host=localhost;dbname=ppe;charset=utf8', 'root', '');
+  session_start();
+
+?>
 </body>
 </html>
