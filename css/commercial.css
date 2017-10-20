@@ -1,0 +1,78 @@
+body{
+	font-family: 'roboto', sans-serif;
+	background: #eee;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.1vw;
+
+}
+#info{
+	width:100%;
+	height:25%;
+	background-color: #4a89dc;
+}
+#titre{
+	position: absolute;
+	font-size: 2vw;
+	left:42vw;
+	color:white;
+	top:3vh;
+}
+#titre2{
+	position: absolute;
+	font-size: 1.8vw;
+	left:5vw;
+	color:white;
+	top:6.2vh;
+}
+#affichage{
+	width:70vw;
+	height:30vw;
+	position: absolute;
+	left:15vw;
+	top:6vw;
+	border-radius: 3px;
+	background-color: white;
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+#Frais_f{
+	margin-left:13vw;
+	width: 150px;
+	margin-top: 40px;
+	color: black;
+	font-size: 3vh;
+	cursor: pointer;
+}
+#Hors_f{
+	margin-left:13vw;
+	width: 150px;
+	margin-top: 40px;
+	color: black;
+	font-size: 3vh;
+	cursor: pointer;
+}
+#aff_Frais_f{
+	display: inline;
+}
+#aff_Hors_f{
+	display: inline;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.mdl-layout__drawer-button i {
+  color: #EEEEEE;
+  position: absolute;
+  font-size: 35px;
+  left:10px;
+  top:20px;
+}
+#affichage_{
+	width:70vw;
+	height:30vw;
+	position: absolute;
+	left:15vw;
+	top:38.3vw;
+	border-radius: 3px;
+	background-color: white;
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
